@@ -1,90 +1,85 @@
-# 📊 Pipeline Automatizado de Cotizaciones del Dólar (Argentina)
+# 📊 Automated Dollar Exchange Rate Data Pipeline (Argentina)
 
-## 🚀 Descripción del Proyecto
+## 🚀 Project Overview
 
-Este proyecto consiste en el desarrollo de un pipeline ETL automatizado que permite la extracción, transformación, almacenamiento y visualización de datos de cotizaciones del dólar en Argentina.
+This project showcases the design and implementation of an automated ETL pipeline to extract, process, store, and visualize exchange rate data in Argentina.
 
-El sistema integra múltiples herramientas utilizadas en entornos profesionales, simulando un flujo de trabajo real de un Analista de Datos o Business Intelligence.
-
----
-
-## 🧠 Objetivo de Negocio
-
-Desarrollar una solución que permita:
-
-- Monitorear la evolución del dólar en el tiempo
-- Comparar distintos tipos de cambio
-- Automatizar la actualización de datos
-- Generar alertas ante eventos relevantes
-- Facilitar la toma de decisiones basada en datos
+It integrates multiple industry-standard tools, simulating a real-world workflow for Data Analysts and Business Intelligence roles.
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## 🧠 Business Objective
+
+Build a solution to:
+
+- Monitor exchange rate trends over time  
+- Compare different dollar exchange types  
+- Automate data ingestion and updates  
+- Trigger alerts based on business rules  
+- Enable data-driven decision making  
+
+---
+
+## ⚙️ Tech Stack
 
 - **Python** (pandas, requests)
-- **MySQL** (almacenamiento de datos)
-- **Power BI** (visualización y análisis)
-- **Task Scheduler** (automatización)
-- **n8n** (alertas automatizadas)
-- **SQL** (gestión y control de datos)
+- **MySQL** (data storage)
+- **Power BI** (data visualization)
+- **Task Scheduler** (automation)
+- **n8n** (automated alerts)
+- **SQL**
 
 ---
 
-## 🔄 Flujo del Pipeline
+## 🔄 Data Pipeline
 
-1. Extracción de datos desde API pública  
-2. Transformación y limpieza con Python  
-3. Simulación de datos históricos para análisis temporal  
-4. Carga en MySQL con control de duplicados (UPSERT)  
-5. Visualización en Power BI  
-6. Automatización diaria del pipeline  
-7. Envío de alertas por email mediante n8n  
-
----
-
-## 📊 Dashboard
-
-El dashboard desarrollado permite:
-
-- Análisis de evolución temporal del dólar  
-- Comparación entre tipos de cambio  
-- Visualización de indicadores clave (KPIs):
-  - Promedio
-  - Máximo
-  - Mínimo  
+1. Extract data from a public API  
+2. Transform and clean data using Python  
+3. Simulate historical data for time-series analysis  
+4. Load into MySQL with UPSERT logic  
+5. Build interactive dashboards in Power BI  
+6. Automate execution with Task Scheduler  
+7. Send alert notifications via n8n  
 
 ---
 
-## 🔔 Automatización y Alertas
+## 📊 Dashboard Features
 
-El pipeline se ejecuta automáticamente mediante Task Scheduler, garantizando datos actualizados sin intervención manual.
-
-Además, se implementó un sistema de alertas con n8n que envía notificaciones cuando se alcanzan ciertos umbrales (ej: dólar blue).
+- Time-series analysis of exchange rates  
+- Comparison between different dollar types  
+- Key performance indicators (KPIs):
+  - Average
+  - Maximum
+  - Minimum  
 
 ---
 
-## 📸 Vista del Dashboard
+## 🔔 Automation & Alerts
+
+The pipeline runs automatically on a daily basis, ensuring up-to-date data without manual intervention.
+
+Additionally, an alert system was implemented using n8n to send email notifications when defined thresholds are exceeded.
+
+---
+
+## 📸 Dashboard Preview
 
 ![Dashboard](docs/dashboard_preview.png)
 
 ---
 
-## 💡 Valor del Proyecto
+## 💡 Project Value
 
-Este proyecto demuestra:
+This project demonstrates:
 
-- Construcción de pipelines ETL end-to-end  
-- Integración de múltiples herramientas  
-- Automatización de procesos de datos  
-- Modelado para análisis temporal  
-- Enfoque orientado a negocio  
-
----
-
+- End-to-end ETL pipeline development  
+- Integration across multiple tools and technologies  
+- Data automation workflows  
+- Time-series data modeling  
+- Business-oriented analytics  
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
 Andrés Navarro
