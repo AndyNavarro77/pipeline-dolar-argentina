@@ -45,12 +45,15 @@ Build a solution to:
 
 ## 📊 Dashboard Features
 
-- Time-series analysis of exchange rates  
-- Comparison between different dollar types  
+- Live Quotes — Buy & Sell 
+- Current Rate by Type
+- Sell Price Trend by Exchange Type
+- Informal Spread vs Oficial
 - Key performance indicators (KPIs):
   - Average
-  - Maximum
-  - Minimum  
+  - Blue Rate
+  - Oficial Rate
+  - Informal Spread
 
 ---
 
