@@ -9,9 +9,6 @@ venv/
 # Datos (opcional, si no querés subirlos)
 data/*.csv
 
-# Power BI (opcional si pesa mucho)
-*.pbix
-
 # Sistema
 .DS_Store
 Thumbs.db
