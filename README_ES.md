@@ -47,12 +47,15 @@ Desarrollar una solución que permita:
 
 El dashboard desarrollado permite:
 
-- Análisis de evolución temporal del dólar  
-- Comparación entre tipos de cambio  
+- Evolución histórica del precio de venta desde marzo
+- Comparación visual del precio de venta actual de cada tipo
+- Tabla con cotizacion de compra y venta
+- Muestra semana a semana cómo evolucionó la brecha blue/oficial
 - Visualización de indicadores clave (KPIs):
-  - Promedio
-  - Máximo
-  - Mínimo  
+  - Dolar Oficial
+  - Dolar Blue
+  - Dolar promedio
+  - Spread Informal
 
 ---
 
@@ -60,7 +63,7 @@ El dashboard desarrollado permite:
 
 El pipeline se ejecuta automáticamente mediante Task Scheduler, garantizando datos actualizados sin intervención manual.
 
-Además, se implementó un sistema de alertas con n8n que envía notificaciones cuando se alcanzan ciertos umbrales (ej: dólar blue).
+Además, se implementó un sistema de alertas con n8n que envía notificaciones cuando se alcanzan ciertos umbrales (ej: dólar blue > $1600).
 
 ---
 
