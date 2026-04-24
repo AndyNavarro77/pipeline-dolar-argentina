@@ -69,7 +69,7 @@ Además, se implementó un sistema de alertas con n8n que envía notificaciones 
 
 ## 📸 Vista del Dashboard
 
-![Dashboard](docs/dashboard_preview.png)
+![Dashboard Preview](./img/image.png)
 
 ---
 
