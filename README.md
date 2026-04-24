@@ -67,7 +67,7 @@ Additionally, an alert system was implemented using n8n to send email notificati
 
 ## 📸 Dashboard Preview
 
-![Dashboard](docs/dashboard_preview.png)
+![dashboard](docs/dashboard_dolar.pbix)
 
 ---
 
