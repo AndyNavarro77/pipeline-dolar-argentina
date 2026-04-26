@@ -23,7 +23,7 @@ DB_PORT = "3306"
 DB_NAME = "pipeline_dolar"
 
 # -------------------------
-# CONFIGURACIÓN EMAIL (Corregido)
+# CONFIGURACIÓN EMAIL 
 # -------------------------
 EMAIL_REMITENTE = "andresnavarroalvarez15@gmail.com"
 EMAIL_PASSWORD = "ikajsdosbxftunoe" # Pegado sin espacios
@@ -33,7 +33,6 @@ EMAIL_PASSWORD = "ikajsdosbxftunoe" # Pegado sin espacios
 # -------------------------
 def enviar_reporte_mail(df):
     try:
-        # Extraemos el valor del blue para el asunto
         valor_blue = df[df['tipo_dolar'] == 'blue']['precio_venta'].iloc[-1]
         
         msg = EmailMessage()
@@ -48,8 +47,7 @@ El pipeline de datos se ejecutó correctamente.
 - Referencia Dólar Blue: ${valor_blue}
 - Total de registros procesados (histórico): {len(df)}
 
-Saludos,
-Tu Script de Python"""
+Saludos,"""
 
         msg.set_content(contenido)
 
