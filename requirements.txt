@@ -3,3 +3,5 @@ requests
 sqlalchemy
 pymysql
 openpyxl
+python-dotenv
+cryptography
