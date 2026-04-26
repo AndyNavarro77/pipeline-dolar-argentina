@@ -158,7 +158,6 @@ def cargar_a_mysql(df, engine):
 # MAIN
 # -------------------------
 if __name__ == "__main__":
-    # Importante para el Programador de Tareas: Cambiar al directorio del script
     abspath = os.path.abspath(__file__)
     dname = os.path.dirname(abspath)
     os.chdir(dname)
