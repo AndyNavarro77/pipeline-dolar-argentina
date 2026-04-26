@@ -10,7 +10,6 @@ from email.message import EmailMessage
 # CONFIGURACIÓN API
 # -------------------------
 URL = "https://dolarapi.com/v1/dolares"
-# Tip: Usa rutas relativas simples para que "Iniciar en" del programador funcione
 DATA_PATH = "data/dolar_data.csv"
 
 # -------------------------
