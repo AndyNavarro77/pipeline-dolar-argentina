@@ -92,6 +92,22 @@ El dashboard en Power BI fue diseñado para responder las preguntas que importan
 
 ---
 
+## ✉️ Prueba Real — Funciona en Producción
+
+Este pipeline no es solo código — se ejecuta en producción todos los días. Acá la prueba:
+
+**Reporte HTML automatizado entregado diariamente por email:**
+
+![Reporte por Email](img/email_report.png)
+
+**Flujo en n8n — lógica de alertas basada en eventos:**
+
+![Flujo n8n](img/n8n_workflow.png)
+
+> El reporte se genera y envía automáticamente tras cada ejecución exitosa del pipeline, incluyendo KPIs en vivo: Dólar Oficial, Dólar Blue, todos los tipos de cambio, Spread Informal % y total de registros procesados.
+
+---
+
 ## 💡 Resultados y Valor Generado
 
 | Antes | Después |
@@ -124,32 +140,12 @@ pipeline-dolar-argentina/
 │
 ├── extract_dolar.py       # Script ETL principal — extracción, transformación y carga
 ├── requirements.txt       # Dependencias Python
+├── .env.example           # Template de variables de entorno (sin credenciales)
 ├── dashboard/             # Archivo Power BI .pbix
-├── data/                  # Datos de muestra / históricos
-├── img/                   # Capturas del dashboard
-├── README.md              # Versión en inglés
-└── README_ES.md           # Este archivo (Español)
+├── data/                  # Datos históricos
+├── img/                   # Capturas del dashboard y reportes
+└── README.md              # Versión en inglés
 ```
-
----
-
-## 🚀 Cómo Ejecutarlo
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/AndyNavarro77/pipeline-dolar-argentina.git
-cd pipeline-dolar-argentina
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar el pipeline manualmente
-python extract_dolar.py
-```
-
-**Para habilitar la ejecución diaria**, configurar Windows Task Scheduler para que ejecute `extract_dolar.py` al horario deseado.
-
-**Para habilitar las alertas**, importar el flujo de n8n y configurar las credenciales SMTP y los valores de umbral.
 
 ---
 
@@ -159,7 +155,8 @@ python extract_dolar.py
 Analista de Datos · BI · ETL · Python · SQL
 
 [![GitHub](https://img.shields.io/badge/GitHub-AndyNavarro77-black?logo=github)](https://github.com/AndyNavarro77)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin)](https://linkedin.com/in/andres-navarro77)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin)](https://www.linkedin.com/in/andr%C3%A9s-navarro77/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-orange?logo=netlify)](https://andres-navarro-portfolio.netlify.app/)
 
 ---
 
