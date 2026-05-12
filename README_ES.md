@@ -15,9 +15,9 @@
 Argentina opera con **7 tipos de cambio simultáneos** — cada uno con implicancias distintas para precios, contratos, importaciones y planificación financiera. La brecha entre el dólar oficial y el informal (blue) puede moverse varios puntos porcentuales en una sola semana, impactando directamente en costos, márgenes y decisiones estratégicas.
 
 Hacer seguimiento manual de estos valores implica:
-- **Alto costo operativo** — consultar múltiples fuentes todos los días
-- **Riesgo de error** — capturas desactualizadas y datos copiados a mano
-- **Reactividad** — las decisiones llegan *después* de que el riesgo u oportunidad ya se movió
+- **Alto costo operativo** — consultar múltiples fuentes todos los días.
+- **Riesgo de error** — capturas desactualizadas y datos copiados a mano.
+- **Reactividad** — las decisiones llegan *después* de que el riesgo u oportunidad ya se movió.
 
 **Este pipeline elimina ese problema.**
 
@@ -76,11 +76,11 @@ El dashboard en Power BI fue diseñado para responder las preguntas que importan
 
 **Qué muestra:**
 
-- **Cotizaciones de compra y venta en tiempo real** para los 7 tipos (blue, bolsa, CCL, cripto, mayorista, oficial, tarjeta)
-- **Tipo de cambio actual por tipo** — gráfico de barras horizontales para comparación visual inmediata
-- **Tendencia de precio de venta** — serie temporal desde marzo 2026
-- **Spread informal vs. oficial (semanal)** — análisis semana a semana para detectar patrones de volatilidad
-- **KPIs:** Dólar Oficial · Dólar Blue · Promedio · Spread Informal %
+- **Cotizaciones de compra y venta en tiempo real** para los 7 tipos (blue, bolsa, CCL, cripto, mayorista, oficial, tarjeta).
+- **Tipo de cambio actual por tipo** — gráfico de barras horizontales para comparación visual inmediata.
+- **Tendencia de precio de venta** — serie temporal desde marzo 2026.
+- **Spread informal vs. oficial (semanal)** — análisis semana a semana para detectar patrones de volatilidad.
+- **KPIs:** Dólar Oficial · Dólar Blue · Promedio · Spread Informal %.
 
 ---
 
